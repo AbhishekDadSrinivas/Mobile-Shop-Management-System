@@ -15,3 +15,4 @@ Step3: copy all the jpg and png images to the images folder which is present in 
 Step4: import the sql database file in the phpmyadmin that is present in the wamp server.
 Step5: Now execute the index.html in google chrome browser using localhost.
 thank you.
+NOTE: I LOST THE SQL FILE OF THE DATABASE SO I HAVE ATTACHED THE REPORT WHERE YOU CAN GET SNAPSHOTS AND SCHEMA DIAGRAM OF THE DATABASE SO THAT YOU CAN CREATE DATABASE
