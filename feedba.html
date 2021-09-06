@@ -1,0 +1,22 @@
+<!docttype html>
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="castyle.css">   
+</head>
+<body style="background-color: yellow">
+    <center><img src="images/frontlogo.png" height="150px"></center>
+<form action="feedback.php" method="post">
+<div class="container1">
+        <div class="container1" style="background-color: #f1f1f1">
+        <center><h1>Feedback Form</h1></center>
+        </div>
+    <label for="name"><b>Name</b></label>
+        <input type="text" placeholder="Enter Your Name" name="name" id="name"required><br>
+    <label for="pno"><b>Mobile number</b></label>
+        <input type="tel" placeholder="Enter Mobile Number" name="pno" pattern="[0-9]{10}" id="pno" required /><br>
+     <label for="emailid"><b>Email-ID</b></label>
+        <input type="email" placeholder="Enter Email-id" name="emailid" id="emailid" required><br>
+    <label for="issue"><b>Feedback</b></label>
+        <input type="text" placeholder="Enter Your Feedback" name="issue" id="issue" required><br>
+    <button type="submit">Submit</button>
+    </div>
